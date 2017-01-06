@@ -1,5 +1,3 @@
-<?php include('connection.php') ; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +22,7 @@
 
 <script type="text/javascript" src="src/js/bootstrap.js"></script>
 <script type="text/javascript" src="src/js/jquery-3.1.0.min.js"></script>
-<script type="text/javascript" src="src/js/main.js"></script>
+<script type="text/javascript" src="src/js/user.js"></script>
 </body>
 </html>
 
