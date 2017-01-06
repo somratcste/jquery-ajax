@@ -1,0 +1,61 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Georgia" , Times, serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+/* Main Section */
+
+.main {
+	min-height: 500px;
+}
+.post {
+	border: 1px solid #E321A3;
+    padding: 10px 10px 25px 10px;
+    margin-bottom: 15px;
+}
+
+.post_info {
+	color:gray;
+	font-size: 12px;
+}
+
+.post_des {
+	text-align: justify;
+}
+
+.footer {
+	padding: 10px;
+	text-align: center;
+	background-color: black;
+}
+
+.footer a {
+	color:gray;
+}
+
+.footer a:hover {
+	color:white;
+	text-decoration: none;
+}
+.read_more {
+	font-size: 15px;
+	float: right;
+}
+
+.about_des {
+	padding-top: 10px;
+	font-size: 15px;
+}
+
+.left_sidebar h4{
+	padding-bottom: 5px;
+	border-bottom: 1px solid gray
+}
+
+.left_sidebar_content {
+	color:gray;
+	line-height: 12px;
+}
