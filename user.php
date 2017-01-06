@@ -1,4 +1,4 @@
-<?php include('src/connection.php') ; ?>
+<?php include('connection.php') ; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,12 +11,13 @@
 	<div class="container">
 	<div class="row">	
 	<div class="col-md-6">	
-		<form action="" method="post">
+		<form action="" method="POST">
 			<tr>
 				<td>User Name : </td>
-				<td><input type="" name="username" id="username"></td>
+				<td><input type="text" name="username" id="username"></td>
 			</tr>
 		</form>
+		<div id ="userStatus"></div>
 	</div>
 	</div>
 	</div>
