@@ -13,3 +13,8 @@ $("#autosubmit").click(function(){
 		return false ;
 	}
 });
+$(document).ready(function(){
+	setInterval(function(){
+		$("#autoStatus").load("check/getrefresh.php").fadeIn("slow");
+	} , 1000);
+});		
