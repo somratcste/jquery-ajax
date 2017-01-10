@@ -13,7 +13,8 @@
 	<div class="col-md-6">	
 		<ul>
 			<li><a href="user.php" target="_blank">1. Ajax - Check Username Availiability</a></li>
-			<li><a href="textbox.php" target="_blank">1. Ajax - Autocomplete Textbox</a></li>
+			<li><a href="textbox.php" target="_blank">2. Ajax - Autocomplete Textbox</a></li>
+			<li><a href="password.php" target="_blank">3. Ajax - Show Passowrd</a></li>
 		</ul> 
 	</div>
 	</div>
