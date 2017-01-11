@@ -3,7 +3,7 @@ $("#autosearch").keyup(function(){
 	if(search != '') {
 		$.ajax({
 			url : "check/livesearch.php",
-			method : "POST",
+			method : "post",
 			data : {search:search} ,
 			dataType : "text" ,
 			success : function(data){

@@ -17,6 +17,7 @@
 			<li><a href="password.php" target="_blank">3. Ajax - Show Passowrd</a></li>
 			<li><a href="refresh.php" target="_blank">4. Ajax - Auto Refresh Div Content</a></li>
 			<li><a href="livesearch.php" target="_blank">5. Ajax - Ajax Live Data Search</a></li>
+			<li><a href="autosave.php" target="_blank">6. Ajax - Ajax Auto Save Data</a></li>
 		</ul> 
 	</div>
 	</div>
