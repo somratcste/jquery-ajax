@@ -9,7 +9,7 @@
 	<div class="container">
 	<div class="row">	
 	<div class="col-md-6">	
-		<form action="" method="">
+		<form action="" method="post">
 			<tr>
 				<td>Type Key Word : </td>
 				<td><input type="text" name="autosearch" id="autosearch"></td>

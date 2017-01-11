@@ -15,16 +15,18 @@
 					<th>Name</th>
 					<th>Email</th>
 				 </tr>
-				 </table>" ; 
+				 </table>"; 
 
 		if($result){
 			foreach($result as $row) {
-				$data .= "<tr>
+				$data .= "<table>
+						  <tr>
 							<td>".$row['id']."</td>
 							<td>".$row['username']."</td>
 							<td>".$row['name']."</td>
 							<td>".$row['email']."</td>
-						  </tr>";
+						  </tr>
+						  </table>" ;
 			}
 			echo $data ;
 		}  else {
