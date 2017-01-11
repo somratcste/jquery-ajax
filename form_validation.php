@@ -14,28 +14,40 @@
 		  <div class="form-group">
 		    <label class="col-sm-4 control-label">User Name</label>
 		    <div class="col-sm-8">
-		      <input type="text" class="form-control">
+		      <input type="text" class="form-control" id="username">
+		    </div>
+		    <div class="col-sm-8 pull-right">
+		      <span class="btn-danger" id="username_error_message"></span>
 		    </div>
 		  </div>
 
 		  <div class="form-group">
 		    <label class="col-sm-4 control-label">Password</label>
 		    <div class="col-sm-8">
-		      <input type="password" class="form-control">
+		      <input type="password" class="form-control" id="password">
+		    </div>
+		    <div class="col-sm-8 pull-right">
+		      <span class="btn-danger" id="password_error_message"></span>
 		    </div>
 		  </div>
 
 		  <div class="form-group">
 		    <label class="col-sm-4 control-label">Password Again</label>
 		    <div class="col-sm-8">
-		      <input type="password" class="form-control">
+		      <input type="password" class="form-control" id="password_again">
+		    </div>
+		    <div class="col-sm-8 pull-right">
+		      <span class="btn-danger" id="password_again_error_message"></span>
 		    </div>
 		  </div>
 
 		  <div class="form-group">
 		    <label class="col-sm-4 control-label">Email</label>
 		    <div class="col-sm-8">
-		      <input type="text" class="form-control">
+		      <input type="text" class="form-control" id="email">
+		    </div>
+		    <div class="col-sm-8 pull-right">
+		      <span class="btn-danger" id="email_error_message"></span>
 		    </div>
 		  </div>
 
@@ -47,6 +59,9 @@
 		          <input type="checkbox"> Remember me
 		        </label>
 		      </div>
+		      <div class="col-sm-8">
+		      	<span class="btn-danger" id="remember_error_message"></span>
+		    </div>
 		    </div>
 		  </div>
 		  <div class="form-group">
@@ -60,7 +75,7 @@
 
 <script type="text/javascript" src="src/js/bootstrap.js"></script>
 <script type="text/javascript" src="src/js/jquery-3.1.0.min.js"></script>
-<script type="text/javascript" src="src/js/textbox.js"></script>
+<script type="text/javascript" src="src/js/form_validate.js"></script>
 </body>
 </html>
 
