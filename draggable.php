@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Jquery UI - Draggable Widget Option</title>
+	<title>Jquery UI - Draggable Widget Option & Priority</title>
 	<link rel="stylesheet" type="text/css" href="src/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="src/css/jquery-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="src/css/style.css">
@@ -26,7 +26,8 @@
 		$("div").draggable({
 			snap : '#outeroption',
 			snapTolerance : 50 ,
-			cancel : '#outeroption'
+			cancel : '#outeroption' ,
+			stack : '.innerdivision'
 		});
 	});
 </script>
