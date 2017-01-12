@@ -33,11 +33,9 @@
 			step : 5 ,
 			slide : function(event , ui){
 				getOutput.html(ui.values[0]+'-'+ui.values[1]+' Tk. ');
-			} , 
-			stop : function(event , ui) {
 				$("#minValue").val(ui.values[0]);
 				$("#maxValue").val(ui.values[1]);
-			}
+			} 
 		}); 
 		getOutput.html(getSlider.slider("values",0)+'-'+getSlider.slider("values",1)+" Tk.");
 		$("#minValue").val(getSlider.slider("values",0));
