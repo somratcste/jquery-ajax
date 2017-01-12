@@ -9,13 +9,13 @@
 </head>
 <body>
 	<div class="container">
-	<div class="row col-md-6">	
-		<div id="outeroption" class="outerdiv">
-			<div id="draggable" class="innerdivision">
-				This is draggable widget
-			</div>
-		</div>
-		
+	<div class="row col-md-8">	
+		<div class="innerdivision" style="background: red;">Red</div>
+		<div class="innerdivision" style="background: green;">Green</div>
+		<div class="innerdivision" style="background: yellow;">Yellow</div>
+		<div class="innerdivision" style="background: blue;">Blue</div>
+		<div class="innerdivision" style="background: orange;">Orange</div><br>
+		<div id="outeroption" class="outerdiv"></div>		
 	</div>
 	</div>
 <script type="text/javascript" src="src/js/bootstrap.js"></script>
@@ -23,11 +23,10 @@
 <script type="text/javascript" src="src/js/jquery-ui.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("#draggable").draggable({
-			containment : 'parent' ,
-			cursor : 'move' ,
-			opacity : 0.5 ,
-			revert : true ,
+		$("div").draggable({
+			snap : '#outeroption',
+			snapTolerance : 50 ,
+			cancel : '#outeroption'
 		});
 	});
 </script>
