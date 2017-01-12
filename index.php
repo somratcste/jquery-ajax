@@ -23,6 +23,7 @@
 			<li><a href="dialogue.php" target="_blank">8. Jquery UI - Dialogue Message</a></li>
 			<li><a href="tooltip.php" target="_blank">9. Jquery UI - Tooltip Widget</a></li>
 			<li><a href="menu.php" target="_blank">10. Jquery UI - Menu Widget</a></li>
+			<li><a href="slider.php" target="_blank">10. Jquery UI - Increment Slider Values</a></li>
 		</ul> 
 	</div>
 	</div>
