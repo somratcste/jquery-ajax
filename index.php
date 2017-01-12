@@ -25,7 +25,8 @@
 			<li><a href="menu.php" target="_blank">10. Jquery UI - Menu Widget</a></li>
 			<li><a href="slider.php" target="_blank">10. Jquery UI - Increment Slider Values</a></li>
 			<li><a href="range_slider.php" target="_blank">11. Jquery UI - Ranger Slider</a></li>
-			<li><a href="multiple_slider.php" target="_blank">12. Jquery UI - Control Dimenstion with Multiple Slider</a></li>
+			<li><a href="multiple_slider.php" target="_blank">12. Jquery UI - Dimenstion & Opacity with Multiple Slider</a></li>
+			<li><a href="draggable.php" target="_blank">13. Jquery UI - Draggable Widget Option</a></li>
 		</ul> 
 	</div>
 	</div>
