@@ -24,7 +24,7 @@
 		  <div class="form-group">
 		    <label class="col-sm-4 control-label">Password</label>
 		    <div class="col-sm-8">
-		      <input type="password" class="form-control" id="password">
+		      <input type="text" class="form-control" id="password">
 		    </div>
 		    <div class="col-sm-8 pull-right">
 		      <span class="btn-danger" id="password_error_message"></span>
@@ -34,7 +34,7 @@
 		  <div class="form-group">
 		    <label class="col-sm-4 control-label">Password Again</label>
 		    <div class="col-sm-8">
-		      <input type="password" class="form-control" id="password_again">
+		      <input type="text" class="form-control" id="password_again">
 		    </div>
 		    <div class="col-sm-8 pull-right">
 		      <span class="btn-danger" id="password_again_error_message"></span>
