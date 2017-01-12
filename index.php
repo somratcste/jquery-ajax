@@ -19,6 +19,7 @@
 			<li><a href="livesearch.php" target="_blank">5. Ajax - Ajax Live Data Search</a></li>
 			<li><a href="autosave.php" target="_blank">6. Ajax - Ajax Auto Save Data</a></li>
 			<li><a href="form_validation.php" target="_blank">7. Jquery - Form Validation</a></li>
+			<li><a href="scroll.php" target="_blank">8. Jquery - Scroll Top to Bottom</a></li>
 		</ul> 
 	</div>
 	</div>
