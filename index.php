@@ -24,6 +24,7 @@
 			<li><a href="tooltip.php" target="_blank">9. Jquery UI - Tooltip Widget</a></li>
 			<li><a href="menu.php" target="_blank">10. Jquery UI - Menu Widget</a></li>
 			<li><a href="slider.php" target="_blank">10. Jquery UI - Increment Slider Values</a></li>
+			<li><a href="range_slider.php" target="_blank">11. Jquery UI - Ranger Slider</a></li>
 		</ul> 
 	</div>
 	</div>
