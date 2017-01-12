@@ -20,7 +20,8 @@
 			<li><a href="autosave.php" target="_blank">6. Ajax - Ajax Auto Save Data</a></li>
 			<li><a href="form_validation.php" target="_blank">7. Jquery - Form Validation</a></li>
 			<li><a href="scroll.php" target="_blank">8. Jquery - Scroll Top to Bottom</a></li>
-			<li><a href="dialogue.php" target="_blank">8. Jquery - Dialogue Message with jQuery UI</a></li>
+			<li><a href="dialogue.php" target="_blank">8. Jquery UI - Dialogue Message</a></li>
+			<li><a href="tooltip.php" target="_blank">9. Jquery UI - Tooltip Widget</a></li>
 		</ul> 
 	</div>
 	</div>
