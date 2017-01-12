@@ -24,7 +24,10 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$("#draggable").draggable({
-			containment  : 'parent'
+			containment : 'parent' ,
+			cursor : 'move' ,
+			opacity : 0.5 ,
+			revert : true ,
 		});
 	});
 </script>
